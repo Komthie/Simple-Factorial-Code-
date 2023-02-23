@@ -1,0 +1,17 @@
+#Factorial
+
+def fatorial(num=1, show=True):
+    show = ''
+    if show == True:
+        print(fatorial())
+    f = 1
+    for c in range(num, 0, -1):
+        f *= c
+    return f
+f1 = fatorial()
+#Enter the first number here
+f2 = fatorial()
+#Enter the second number here
+f3 = fatorial()
+#Enter the three number here
+print(f' The results are >> {f1}, {f2}, {f3}')
